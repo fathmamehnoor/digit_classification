@@ -12,7 +12,7 @@ from pathlib import Path
 
 def download_models():
     """Download trained models from a cloud storage"""
-    print("🔧 Setting up Audio Digit Classification Project")
+    print(" Setting up Audio Digit Classification Project")
     print("=" * 50)
     
     # Create models/saved directory if it doesn't exist
@@ -38,18 +38,18 @@ def download_models():
     
     # For now, we'll provide instructions for manual download
     # In a real scenario, you would upload models to cloud storage
-    print("\n📋 Model Setup Instructions:")
+    print("\nModel Setup Instructions:")
     print("1. The trained models are already included in the repository")
     print("2. Check if these files exist in models/saved/:")
     for file in model_files:
         print(f"   - {file}")
     
-    print("\n🚀 Quick Start:")
+    print("\n Quick Start:")
     print("1. Install dependencies: pip install -r requirements.txt")
     print("2. Launch the app: python ui/gradio_app.py")
     print("3. The app will automatically load the pre-trained model")
     
-    print("\n📊 Model Performance:")
+    print("\nModel Performance:")
     print("- Test Accuracy: 96.17% on FSDD dataset")
     print("- Inference Time: <100ms per prediction")
     print("- Model Size: 10MB with 2.62M parameters")
@@ -58,7 +58,7 @@ def download_models():
 
 def check_dependencies():
     """Check if required dependencies are installed"""
-    print("\n🔍 Checking dependencies...")
+    print("\n Checking dependencies...")
     
     required_packages = [
         'torch', 'librosa', 'gradio', 'numpy', 
@@ -85,7 +85,7 @@ def check_dependencies():
 
 def main():
     """Main setup function"""
-    print("🎤 Audio Digit Classification - Setup")
+    print(" Audio Digit Classification - Setup")
     print("=" * 40)
     
     # Check dependencies
