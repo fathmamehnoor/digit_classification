@@ -71,6 +71,7 @@ python setup.py
 python ui/gradio_app.py
 ```
 
+
 ### Option 2: Train Your Own Model
 ```bash
 # Train 2D CNN model (takes ~5-10 minutes)
@@ -172,6 +173,9 @@ weighted avg       0.96      0.96      0.96       600
  [ 0  0  1  0  0  0  5  0 54  0]  # Digit 8
  [ 0  0  0  0  0  0  0  1  0 59]] # Digit 9
 ```
+### Hugging Face Model Repository
+
+The trained models are also published on [Hugging Face](https://huggingface.co/me-r/audio-digit-classification).  
 
 ### Real-world Considerations
 - **Noise Robustness**: Built-in noise reduction
